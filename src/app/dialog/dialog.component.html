@@ -1,0 +1,11 @@
+<p-dialog header="Sample Modal" [(visible)]="display" [modal]="true"  [responsive]="true" [width]="350" [minWidth]="200" [minY]="70" 
+        [maximizable]="true" [baseZIndex]="10000">
+    <span>This is a sample Modal.
+        Click the close button below to close this modal.
+    </span>
+        <p-footer>
+            <button type="button" pButton icon="pi pi-check" (click)="display=false" label="Close">Close</button>
+        </p-footer>
+</p-dialog>
+
+<button type="button" (click)="showDialog()" pButton icon="pi pi-info-circle" label="Show">Show Modal</button>

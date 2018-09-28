@@ -1,0 +1,29 @@
+<div class="container">
+    <!-- <h2>Welcome to {{title}}</h2> -->
+
+    <p-tabView>
+        <p-tabPanel header="Toast" leftIcon="fa-bell-o">
+            <app-toast></app-toast>
+          </p-tabPanel>
+        <p-tabPanel header="Charts" leftIcon="fa-bell-o">
+            <app-chart></app-chart> <!--Charts component -->
+          </p-tabPanel>
+        <p-tabPanel header="Signal" leftIcon="fa-calendar">
+            <app-signal></app-signal>
+          </p-tabPanel>
+      <p-tabPanel header="Table" leftIcon="fa-calendar">
+        <app-table></app-table>  <!--Table component -->
+      </p-tabPanel>
+      <p-tabPanel header="Images" leftIcon="fa-print">
+        <app-images></app-images> <!--Gallery component -->
+      </p-tabPanel>
+      <p-tabPanel header="Dialog" leftIcon="fa-bell-o">
+        <app-dialog></app-dialog> <!--Modal component -->
+      </p-tabPanel>
+      <p-tabPanel header="Menu" leftIcon="fa-bell-o">
+        <app-menu></app-menu> <!--Menu component -->
+      </p-tabPanel>
+      
+    </p-tabView>
+</div>
+
